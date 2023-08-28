@@ -62,8 +62,8 @@ Is the same as:
 use Qrc\Renderer\SvgRenderer;
 
 $renderer = new SvgRenderer();
-$renderer->setBackColor('#222');
-$renderer->setFillColor('#FAFAFA');
+$renderer->setFillColor('#222');
+$renderer->setBackColor('#FAFAFA');
 $renderer->setPadding(30);
 $renderer->setScale(2);
 ```
