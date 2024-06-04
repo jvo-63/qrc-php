@@ -70,7 +70,7 @@ class SvgRenderer extends AbstractRenderer {
     public function getDataUrl(): string {
         $html = str_replace(' {attrs}', '', $this->svg);
         $encoded = base64_encode($html);
-        return sprintf('data:image/svg+xml; base64,%s', $encoded);
+        return sprintf('data:image/svg+xml;base64,%s', $encoded);
     }
 
     /**
